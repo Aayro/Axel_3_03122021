@@ -94,6 +94,9 @@ header {
   grid-template-columns: repeat(1, 1fr);
   padding: 1em;
 }
+header img {
+  max-width: 15em;
+}
 
 main .localisation, header {
   display: grid;
@@ -101,14 +104,28 @@ main .localisation, header {
   justify-items: center;
 }
 
+footer {
+  font-family: "Roboto", sans-serif;
+  padding: 1em;
+  background-color: #353535;
+  color: #ffffff;
+}
+footer img {
+  max-width: 7em;
+}
+
 /* Début Main */
 main {
   font-family: "Roboto", sans-serif;
+  color: #000000;
   /* Debut section localisation */
   /* Fin section localisation */
   /* Debut section presentation */
   /* Fin section presentation */
-  /* Debut section localisation */
+  /* Debut section fonctionnement */
+  /* Fin section fonctionnement */
+  /* Debut section restaurants */
+  /* Fin section restaurants */
 }
 main .localisation {
   grid-template-columns: repeat(1, 1fr);
@@ -119,5 +136,18 @@ main .localisation {
 main .localisation i {
   padding: 0 0.5em 0 0;
 }
+main .presentation {
+  background-color: #e2e2e2;
+}
+main .presentation a {
+  text-decoration: none;
+}
+main .restaurants {
+  background-color: #e2e2e2;
+}
+main .restaurants a {
+  text-decoration: none;
+}
 
+/* Fin Main */
 /* media queries */

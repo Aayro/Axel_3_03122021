@@ -5,4 +5,8 @@ header{
     @extend %grid-center;
     @include grid-template-set ($header);
     padding: 1em;
+
+    & img {
+        max-width: 15em;
+    }
 }

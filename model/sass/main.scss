@@ -12,6 +12,7 @@
 /* Début Main */
 main {
     font-family: 'Roboto', sans-serif;
+    color: $txt-fond-clair;
 
     /* Debut section localisation */
     & .localisation {
@@ -31,11 +32,30 @@ main {
     /* Fin section localisation */
 
     /* Debut section presentation */
-
+    & .presentation {
+        background-color:$gris-clair;
+        
+        & a {
+            text-decoration: none;
+        }
+    }
     /* Fin section presentation */
 
-/* Debut section localisation */
+    /* Debut section fonctionnement */
+    /* Fin section fonctionnement */
+
+    /* Debut section restaurants */
+    & .restaurants {
+        background-color:$gris-clair;
+
+        & a {
+            text-decoration: none;
+        }
+    }
+    /* Fin section restaurants */
 }
+
+/* Fin Main */
 
 /* media queries */
 @media (max-width: 1270px) {
