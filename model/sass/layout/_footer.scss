@@ -2,6 +2,8 @@
 @use '../ultils/variables';
 
 footer {
+    @extend %grid-center;
+        @include grid-template-set ($footer);
     font-family: 'Roboto', sans-serif;
     padding: 1em;
     background-color: $gris-sombre;

@@ -12,10 +12,10 @@
         $section: $grid-columns-localisation;
     } @else if ($section == "presentation") {
         $section: $grid-columns-presentation;
-    } @else if ($section == "commentCaMarche") {
-        $section: $grid-columns-commentCaMarche;
-    } @else if ($section == "lesRestaurants") {
-        $section: $grid-columns-lesRestaurants;
+    } @else if ($section == "fonctionnement") {
+        $section: $grid-columns-fonctionnement;
+    } @else if ($section == "restaurants") {
+        $section: $grid-columns-restaurants;
     } @else if ($section == "footer") {
         $section: $grid-columns-footer;
     }
