@@ -1,0 +1,123 @@
+@charset "UTF-8";
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap");
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+main .localisation, header {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+main .localisation, header {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+header {
+  grid-template-columns: repeat(1, 1fr);
+  padding: 1em;
+}
+
+main .localisation, header {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+/* Début Main */
+main {
+  font-family: "Roboto", sans-serif;
+  /* Debut section localisation */
+  /* Fin section localisation */
+  /* Debut section presentation */
+  /* Fin section presentation */
+  /* Debut section localisation */
+}
+main .localisation {
+  grid-template-columns: repeat(1, 1fr);
+  padding: 1em;
+  background: #eaeaea;
+  background: linear-gradient(180deg, rgba(173, 173, 173, 0.35) 0%, rgba(234, 234, 234, 0.75) 15%, #eaeaea 100%);
+}
+main .localisation i {
+  padding: 0 0.5em 0 0;
+}
+
+/* media queries */

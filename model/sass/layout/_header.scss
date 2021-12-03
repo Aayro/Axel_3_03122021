@@ -1,0 +1,8 @@
+@use '../ultils/mixins';
+@use '../ultils/variables';
+
+header{
+    @extend %grid-center;
+    @include grid-template-set ($header);
+    padding: 1em;
+}

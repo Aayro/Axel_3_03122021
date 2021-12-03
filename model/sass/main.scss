@@ -1,0 +1,43 @@
+@import 'ultils/normalizer';
+@import 'ultils/variables';
+@import 'ultils/components';
+@import 'ultils/mixins';
+
+@import 'layout/header';
+@import 'layout/footer';
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap');
+
+
+/* Début Main */
+main {
+    font-family: 'Roboto', sans-serif;
+
+    /* Debut section localisation */
+    & .localisation {
+        @extend %grid-center;
+        @include grid-template-set ($header);
+        padding: 1em;
+        background: #eaeaea;
+        background: linear-gradient(
+            180deg,
+             rgba(173,173,173,.35) 0%,
+             rgba(234,234,234,.75) 15%,
+             rgba(234,234,234,1) 100%); 
+        & i {
+            padding: 0 0.5em 0 0;
+        }
+    }
+    /* Fin section localisation */
+
+    /* Debut section presentation */
+
+    /* Fin section presentation */
+
+/* Debut section localisation */
+}
+
+/* media queries */
+@media (max-width: 1270px) {
+    
+}
