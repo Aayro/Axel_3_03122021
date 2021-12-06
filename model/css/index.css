@@ -166,11 +166,13 @@ main .fonctionnement h1 {
   font-weight: bold;
 }
 main .fonctionnement .fonctionnement_number {
+  position: absolute;
   background: linear-gradient(360deg, #9356DC, #FF79DA);
   color: white;
   border-radius: 30px;
   padding: 5px 10px 5px 10px;
-  z-index: 10;
+  margin-top: 30px;
+  margin-left: 2px;
 }
 main .fonctionnement .fonctionnement_text {
   font-weight: bold;
@@ -178,11 +180,11 @@ main .fonctionnement .fonctionnement_text {
   border-radius: 30px;
   padding: 35px;
   margin: 10px;
-  z-index: 1;
+  margin-left: 15px;
 }
 main .restaurants {
   background-color: #e2e2e2;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 main .restaurants h1, main .restaurants h3 {
   font-size: 1.2em;
@@ -192,16 +194,14 @@ main .restaurants a {
   text-decoration: none;
   color: #000000;
 }
-main .restaurants .palette_du_gout {
+main .restaurants img {
+  max-width: 60%;
+  height: auto;
+  border-radius: 20px;
   background: white;
   border-radius: 30px;
   margin: 10px;
-  padding: 0px 0px 20px 0px;
-  z-index: 1;
-}
-main .restaurants .palette_du_gout img {
-  border-radius: 20px;
-  z-index: 1;
+  padding: 0px 0px 60px 0px;
 }
 main .restaurants .isnew {
   background: #99E2D0;
