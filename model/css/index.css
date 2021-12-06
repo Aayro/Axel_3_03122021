@@ -114,6 +114,9 @@ footer {
 footer img {
   max-width: 7em;
 }
+footer i {
+  padding: 0 0.5em 0 0;
+}
 
 /* Début Main */
 main {
@@ -159,7 +162,8 @@ main .presentation a {
 }
 main .fonctionnement {
   grid-template-columns: repeat(3, 1fr);
-  padding: 20px;
+  padding: 1em;
+  position: relative;
 }
 main .fonctionnement h1 {
   font-size: 1.2em;
@@ -181,10 +185,12 @@ main .fonctionnement .fonctionnement_text {
   padding: 35px;
   margin: 10px;
   margin-left: 15px;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.25);
 }
 main .restaurants {
   background-color: #e2e2e2;
   grid-template-columns: repeat(3, 1fr);
+  padding: 1em;
 }
 main .restaurants h1, main .restaurants h3 {
   font-size: 1.2em;
@@ -195,19 +201,40 @@ main .restaurants a {
   color: #000000;
 }
 main .restaurants img {
-  max-width: 60%;
-  height: auto;
+  position: relative;
+  width: 400px;
+  height: 300px;
   border-radius: 20px;
   background: white;
-  border-radius: 30px;
+  border-radius: 20px;
   margin: 10px;
-  padding: 0px 0px 60px 0px;
+  padding: 0px 0px 80px 0px;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.25);
 }
-main .restaurants .isnew {
+main .restaurants .base_restaurants h3, main .restaurants .base_restaurants span {
+  position: absolute;
+}
+main .restaurants .base_restaurants h3 {
+  font-size: 1.05em;
+  margin-top: -75px;
+  margin-left: 25px;
+}
+main .restaurants .base_restaurants .lieu_restaurant {
+  margin-left: -396px;
+  margin-top: 270px;
+}
+main .restaurants .base_restaurants .isnew {
   background: #99E2D0;
   color: #008766;
-  border-radius: 7px;
+  border-radius: 5px;
   padding: 5px;
+  margin-left: -95px;
+  margin-top: 25px;
+}
+main .restaurants .base_restaurants .like {
+  font-size: 1.5em;
+  margin-left: -75px;
+  margin-top: 255px;
 }
 
 /* Fin Main */
