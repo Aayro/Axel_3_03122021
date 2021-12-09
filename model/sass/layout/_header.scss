@@ -8,5 +8,13 @@ header{
 
     & img {
         max-width: 15em;
+        @include grid-pos-set (1, auto, 1, auto);
+    }
+
+    & .btn__retourHome {
+        @include grid-pos-set (1, auto, 1, auto);
+        justify-self: start;
     }
 }
+
+/* Fin Header */

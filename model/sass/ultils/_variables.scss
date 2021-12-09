@@ -6,7 +6,7 @@ $aqua-tertiaire: #99E2D0;
 //Couleur secondaires
 $vert-clair: #99e2d0;
 $gris-sombre: #353535;
-$gris-clair: #e2e2e2;
+$gris-clair: #f5f5f5;
 
 //Textes
 $txt-fond-clair: #000000;
@@ -17,14 +17,17 @@ $txt-fond-vert: #008766;
 $header: "header";
 $localisation: "localisation";
 $presentation: "presentation";
-$fonctionnement: "fonctionnement";
-$restaurants: "restaurants";
+$commentCaMarche: "commentCaMarche";
+$lesRestaurants: "lesRestaurants";
 $footer: "footer";
+
+//Soulignement titre
+$border-length-var: 3rem;
 
 //Positionnement
 $grid-columns-header: 1;
 $grid-columns-localisation: 1;
 $grid-columns-presentation: 1;
-$grid-columns-fonctionnement: 3;
-$grid-columns-restaurants: 3;
+$grid-columns-commentCaMarche: 3;
+$grid-columns-lesRestaurants: 4;
 $grid-columns-footer: 3;
