@@ -269,7 +269,7 @@ main .lesRestaurants ul {
   grid-row: 2 / auto;
   grid-column: 1 / 5;
   display: grid;
-  grid-template-columns: repeat("lesRestaurants", 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 2em;
   justify-self: normal;
   margin: 1em 0;
