@@ -431,30 +431,33 @@ main {
   opacity: 0;
 }
 .menuDuResto .list-item--1 {
-  animation-delay: 111.1111111111ms;
+  animation-delay: 100ms;
 }
 .menuDuResto .list-item--2 {
-  animation-delay: 222.2222222222ms;
+  animation-delay: 200ms;
 }
 .menuDuResto .list-item--3 {
-  animation-delay: 333.3333333333ms;
+  animation-delay: 300ms;
 }
 .menuDuResto .list-item--4 {
-  animation-delay: 444.4444444444ms;
+  animation-delay: 400ms;
 }
 .menuDuResto .list-item--5 {
-  animation-delay: 555.5555555556ms;
+  animation-delay: 500ms;
 }
 .menuDuResto .list-item--6 {
-  animation-delay: 666.6666666667ms;
+  animation-delay: 600ms;
 }
 .menuDuResto .list-item--7 {
-  animation-delay: 777.7777777778ms;
+  animation-delay: 700ms;
 }
 .menuDuResto .list-item--8 {
-  animation-delay: 888.8888888889ms;
+  animation-delay: 800ms;
 }
 .menuDuResto .list-item--9 {
+  animation-delay: 900ms;
+}
+.menuDuResto .list-item--10 {
   animation-delay: 1000ms;
 }
 @keyframes showingDishes {
